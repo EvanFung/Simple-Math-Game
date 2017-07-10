@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.evan.simplemathgame">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayGame"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity android:name=".HowToPlay" >
+        </activity>
+        <activity
+            android:name=".HighScores">
+        </activity>
+        <activity
+            android:name=".GamesLog">
+            </activity>
+        <activity
+            android:name=".QuestionsLog">
+            </activity>
+        <activity
+            android:name=".Chart">
+            </activity>
+        <service android:name=".bgmService" >
+        </service>
+    </application>
+
+</manifest>

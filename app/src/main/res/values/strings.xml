@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimpleMathGame</string>
+    <string name="appName">Simple Math Game</string>
+    <string name="help_info">Simple Maths Game! is an arithmetic game.\n\nAnswer the question by typing on the number pad displayed and pressing enter. Press the C button to clear an existing answer. Each question may be an addition, subtraction, multiplication or division.\n\nYour ten best scores will automatically be saved into the High Scores.</string>
+    <color name="red">#f00</color>
+    <color name="white">#fff</color>
+    <color name="green">#0f0</color>
+    <color name="yellow">#ff0</color>
+    <color name="blue">#00f</color>
+</resources>
